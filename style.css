@@ -48,11 +48,11 @@ body{
 /*Start drop down Menu*/
 .dropbtn 
 {
-    background-color: #386b5d;
+    background-color: #00000038;
     color: white;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border-radius: 15px;
 }
 
 .dropdown-menu
@@ -69,22 +69,22 @@ body{
     background-color: #413f3f;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 4;
+    z-index: 1;
 }
 
 .dropdown-content a 
 {
     color: black;
-    border: 1px solid red !important;
-    padding: auto;
+    border: 1px solid rgb(136, 102, 102) !important;
+    border-radius: 20px !important;
+    padding: 10px;
     text-decoration: none;
     display: block;
-    font-size: 12px;
+    font-size: 1.3em;
     transition: all 0.4s;
 }
 .dropdown-menu:hover .dropdown-content 
 {
-    display: flex;
     transition: all 500ms; 
     display: block;   
 }
