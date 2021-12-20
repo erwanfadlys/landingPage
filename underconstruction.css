@@ -1,0 +1,22 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+.overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+}
